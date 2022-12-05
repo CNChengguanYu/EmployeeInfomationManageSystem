@@ -1,32 +1,26 @@
 import javax.swing.*;
-public class Main {
-    /**{
-     * 创建并显示GUI。出于线程安全的考虑，
-     * 这个方法在事件调用线程中调用。
-     */
-    private static void createAndShowGUI() {
-        // 确保一个漂亮的外观风格
-        JFrame.setDefaultLookAndFeelDecorated(true);
-
-        // 创建及设置窗口
-        JFrame frame = new JFrame("HelloWorldSwing");
+public class Main
+{
+    public static void main(String[] args)
+    {
+        JFrame frame = new JFrame("测试窗口名");
+        JPanel panel = new JPanel();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        // 添加 "Hello World" 标签
-        JLabel label = new JLabel("Hello World");
-        frame.getContentPane().add(label);
-
-        // 显示窗口
-        frame.pack();
+        frame.setSize(600,400);
+        frame.add(panel);
+        panel.setLayout(null);
+        int x=100 , y =100;
+        for(short i =0;i<9;++i)
+        {
+            JButton TempButton =new JButton(String.valueOf(i));
+            TempButton.setBounds(i*x,y,80,60);
+            if(i%3==0){y+=100;}
+            System.out.println("x:y"+i*x+y);
+            panel.add(TempButton);
+        }
+//        JButton button = new JButton("123");
+//        button.setBounds(10,80,100,100);
+//        panel.add(button);
         frame.setVisible(true);
-    }
-
-    public static void main(String[] args) {
-        // 显示应用 GUI
-        javax.swing.SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                createAndShowGUI();
-            }
-        });
     }
 }
