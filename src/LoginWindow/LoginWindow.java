@@ -5,7 +5,7 @@ public class LoginWindow extends JFrame
     public LoginWindow(String name)
     {
         super(name);
-        this.setSize(600,400);
+        this.setSize(500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel panel = new JPanel();
         panel.setLayout(null);
@@ -14,7 +14,7 @@ public class LoginWindow extends JFrame
         JLabel label2 = new JLabel("testlabel2");
         label2.setBounds(60,10,40,20);
         JButton button = new JButton("testbutton");
-        button.setBounds(35,40,30,20);
+        button.setBounds(35,140,300,200);
         panel.add(label1);
         panel.add(label2);
         panel.add(button);
