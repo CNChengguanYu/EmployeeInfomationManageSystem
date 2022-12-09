@@ -55,6 +55,8 @@ public class LoginWindow extends JFrame
 		//调用父类方法，构造窗口名
 		super("Login");
 
+
+
 		//增加一个鼠标点击事件，用于确定拖动状态
 		this.addMouseListener(new MouseAdapter()
 		{
@@ -138,6 +140,11 @@ public class LoginWindow extends JFrame
 
 	}
 
+	public void WindowClose()
+	{
+		this.dispose();
+	}
+
 	//按钮点击后的行动类，通过实现接口来实现
 	private class LoginButtonClicked implements ActionListener
 	{
@@ -151,7 +158,10 @@ public class LoginWindow extends JFrame
 	{
 		public void actionPerformed(ActionEvent e)
 		{
+			//JFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+			WindowClose();
 			System.out.println("closed");
 		}
+
 	}
 }
