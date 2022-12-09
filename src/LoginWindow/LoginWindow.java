@@ -22,7 +22,7 @@ public class LoginWindow extends JFrame
 	private JButton login_Button,close_Button;
 	//登录按钮/关闭按钮
 
-	private JTextField account_Textline, password_Textline, port_Textline;
+	private JTextField account_Textline, password_Textline, port_Textline,address_Textline;
 	//输入窗口
 	//---END---
 
@@ -91,6 +91,7 @@ public class LoginWindow extends JFrame
 			}
 		});
 
+
 		//设置窗口长宽(px)
 		this.setSize(Width, Height);
 		//禁止窗口缩放
@@ -111,29 +112,39 @@ public class LoginWindow extends JFrame
 
 		//创建标签(登录提示)
         login_Text_Label = new JLabel("Login now");
-        login_Text_Label.setBounds(250,250,200,30);
+        login_Text_Label.setBounds(265,90,140,35);
         panel.add(login_Text_Label);
 
 		//创建登录输入栏
 		account_Textline = new JTextField("用户名");
-		account_Textline.setBounds(275, 225, 200, 30);
+		account_Textline.setBounds(265, 160, 220, 30);
 		panel.add(account_Textline);
 
 		//创建密码输入栏
 		password_Textline = new JTextField("密码");
-		password_Textline.setBounds(275, 275, 200, 30);
+		password_Textline.setBounds(265, 210, 140, 30);
 		panel.add(password_Textline);
+
+        //
+        port_Textline = new JTextField("端口");
+        port_Textline.setBounds(415,210,70,30);
+        panel.add(port_Textline);
+
+        //
+        address_Textline = new JTextField("地址");
+        address_Textline.setBounds(265,260,220,30);
+        panel.add(address_Textline);
 
 		//创建登录按钮
 		login_Button = new JButton("登录");
-		login_Button.setBounds(275, 315, 200, 30);
+		login_Button.setBounds(265, 310, 220, 30);
 			//定义按钮事件
 			login_Button.addActionListener(new LoginButtonClicked());
 		panel.add(login_Button);
 
 		//创建关闭按钮
 		close_Button = new JButton();
-		close_Button.setBounds(480,5,15,15);
+		close_Button.setBounds(460,10,30,30);
 			//定义按钮事件
 			close_Button.addActionListener(new CloseButtonClicked());
 		panel.add(close_Button);
