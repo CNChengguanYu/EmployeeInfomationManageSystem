@@ -26,6 +26,8 @@ public class LoginWindow extends JFrame
 
 	private Icon img_LoginButton = new ImageIcon("./SrcImg/img_login_button.png");
 	private ImageIcon img_Login_Background = new ImageIcon("./SrcImg/img_login_panel.png");
+
+	private ImageIcon img_Login_Photo = new ImageIcon("./SrcImg/img_login_photo.png");
 	private JLabel label_Login_Background = new JLabel(img_Login_Background);
 	//输入窗口
 	//---END---
@@ -107,22 +109,13 @@ public class LoginWindow extends JFrame
 
 
 		label_Login_Background.setBounds(0,0,img_Login_Background.getIconWidth(),img_Login_Background.getIconHeight());
-		this.add(label_Login_Background);
 
-		//测试用
-//		label_Login_Background.setBounds(0,0,this.getWidth(),this.getHeight());
+		//获取面板
 		panel = (JPanel)this.getContentPane();
-//		panel.setOpaque(false);
-//		panel.setLayout(null);
-//		//this.getLayeredPane().add(label_Login_Background,new Integer(Integer.MIN_VALUE));
 
-		//创建面板
-		//panel = new JPanel();
-		panel.setBackground(Color.ORANGE);  //测试用
+		this.setBackground(new Color(0,0,0,0));
 		//设置布局方式(自由布局)
 		panel.setLayout(null);
-		//把面板添加到窗口
-		//this.add(panel);
 
 		//创建标签(登录提示)
         login_Text_Label = new JLabel("Login now");
@@ -151,11 +144,10 @@ public class LoginWindow extends JFrame
 
 		//创建登录按钮
 		login_Button = new JButton(img_LoginButton);
+		login_Button.setBorder(null);
 		login_Button.setBounds(265, 310, 220, 30);
 			//定义按钮事件
 			login_Button.addActionListener(new LoginButtonClicked());
-
-		//login_Button.setIcon(img_LoginButton);
 		panel.add(login_Button);
 
 		//创建关闭按钮
@@ -165,7 +157,13 @@ public class LoginWindow extends JFrame
 			close_Button.addActionListener(new CloseButtonClicked());
 		panel.add(close_Button);
 
+		JLabel test = new JLabel(img_Login_Photo);
+
+		test.setBounds(0,0,500,500);
+		panel.add(test);
+
 		this.getContentPane().add(label_Login_Background);
+
 	}
 
 	public void WindowClose()
