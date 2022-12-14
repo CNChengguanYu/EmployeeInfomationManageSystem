@@ -211,7 +211,7 @@ public class LoginWindow extends JFrame
 				{
 					//由于不知道如何通过类来抛出异常，所以这里手动抛出
 					throw new RuntimeException();
-					//tes
+					//te
 				}
 			}
 			catch (Exception Error)
