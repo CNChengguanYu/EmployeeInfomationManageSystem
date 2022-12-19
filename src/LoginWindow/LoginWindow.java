@@ -1,11 +1,15 @@
 package LoginWindow;
 
 import DatabaseControl.Database;
+import SystemWindow.SystemWindow;
+import java.security.KeyStore;
 import java.sql.*;
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.Toolkit;
+import java.util.Objects;
 
 public class LoginWindow extends JFrame
 {
@@ -121,35 +125,35 @@ public class LoginWindow extends JFrame
 
 
 
+
 		//获取面板
 		panel = (JPanel)this.getContentPane();
 		//设置背景透明(为了显示异形窗口)
 		this.setBackground(new Color(0,0,0,0));
 		//设置布局方式(自由布局)
 		panel.setLayout(null);
-
 		//创建标签(登录提示)
 		login_Text_Label = new JLabel("Login now");
 		login_Text_Label.setBounds(265,90,140,35);
 		panel.add(login_Text_Label);
 
 		//创建登录输入栏
-		username_Textline = new JTextField("用户名");
+		username_Textline = new JTextField("root");
 		username_Textline.setBounds(265, 160, 220, 30);
 		panel.add(username_Textline);
 
 		//端口栏
-		port_Textline = new JTextField("端口");
+		port_Textline = new JTextField("3306");
 		port_Textline.setBounds(415,210,70,30);
 		panel.add(port_Textline);
 
 		//地址输入栏
-		address_Textline = new JTextField("地址");
+		address_Textline = new JTextField("127.0.0.1");
 		address_Textline.setBounds(265,210,140,30);
 		panel.add(address_Textline);
 
 		//创建密码输入栏
-		password_Textline = new JTextField("密码");
+		password_Textline = new JTextField("PASSWORD");
 		password_Textline.setBounds(265, 260, 220, 30);
 		panel.add(password_Textline);
 
@@ -202,16 +206,86 @@ public class LoginWindow extends JFrame
 				port = port_Textline.getText();
 				passWord = password_Textline.getText();
 				//填写url
-				URL = "jdbc:mysql://"+address+":"+port+"/world?useUnicode = true&characterEncoding=utf-8";
+				URL = "jdbc:mysql://"+address+":"+port+"/mysql?useUnicode = true&characterEncoding=utf-8";
 				//尝试连接数据库
 				if(db.ConnectDB(URL,userName,passWord))
 				{
-					System.out.println("嘎嘎的！");
+					//连接成功后尝试访问数据库列表
+					ResultSet _RS = db.DBstmt.executeQuery("show databases;");
+					boolean _IsDatabaseFound=false;
+					while(_RS.next())
+					{
+						if(Objects.equals(_RS.getString("Database"), "project_database"))
+						{
+							_IsDatabaseFound= true;
+							break;
+						}
+					}
+					//根据查询结果判定操作
+					if(_IsDatabaseFound)
+					{
+						//存在 project_database，则重新连接
+							//重填URL
+							URL = "jdbc:mysql://"+address+":"+port+"/project_database?useUnicode = true&characterEncoding=utf-8";
+							if(!db.ReConnectDB(URL,userName,passWord))
+							{
+								//连接失败
+								throw new RuntimeException();
+							}
+					}else
+					{
+						//不存在project_database数据库,创建;
+						db.DBstmt.execute("create database project_database;");
+						//重填URL
+						URL = "jdbc:mysql://"+address+":"+port+"/project_database?useUnicode = true&characterEncoding=utf-8";
+						if(!db.ReConnectDB(URL,userName,passWord))
+						{
+							//连接失败
+							throw new RuntimeException();
+						}
+					}
+
+					//已经确定并连接数据库，开始创建表
+					boolean _IsTbaleFound =false;
+					_RS = db.DBstmt.executeQuery("show tables;");
+					while(_RS.next())
+					{
+						if(Objects.equals(_RS.getString(1), "worktable"))
+						{
+							_IsTbaleFound =true;
+							break;
+						}
+					}
+					//如果没找到表
+					if(!_IsTbaleFound)
+					{
+						//创建表
+						db.DBstmt.execute("create table WorkTable\n" +
+								"(\n" +
+								"name varchar(20) not null,\n" +
+								"sex CHAR(2) NOT NULL CHECK(sex in('男','女')),\n" +
+								"workteam varchar(40) not null,\n" +
+								"post varchar(20) not null,\n"+
+								"evaluation varchar(10),\n" +
+								"educational_background varchar(20) not null,\n" +
+								"Entry_date datetime not null,\n" +
+								"salary int not null,\n" +
+								"id int not null primary key\n" +
+								");\n");
+					}
+
+					//准备工作完成，打开系统菜单
+
+					SystemWindow MainSystem = new SystemWindow(db);
+					WindowClose();
+
+
+
+					//首次连接失败
 				}else
 				{
 					//由于不知道如何通过类来抛出异常，所以这里手动抛出
 					throw new RuntimeException();
-					//te
 				}
 			}
 			catch (Exception Error)
@@ -234,3 +308,4 @@ public class LoginWindow extends JFrame
 
 	}
 }
+

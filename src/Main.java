@@ -5,6 +5,7 @@
  */
 
 import LoginWindow.*;
+import  SystemWindow.*;
 import java.sql.*;
 import DatabaseControl.Database;
 public class Main
@@ -16,5 +17,7 @@ public class Main
         LoginWindow login = new LoginWindow();
         login.GetDB(db);
         login.setVisible(true);
+//        SystemWindow SW = new SystemWindow();
+//        SW.setVisible(true);
     }
 }

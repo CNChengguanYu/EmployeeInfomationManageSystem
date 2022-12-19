@@ -5,6 +5,10 @@ import java.sql.*;
 public class Database {
     public Connection DBconn = null;
 
+    public Statement DBstmt =null;
+
+    public ResultSet DBrs =null;
+
     public Database() {
         try {
             //连接JDBC
@@ -19,9 +23,30 @@ public class Database {
     {
         try {
             DBconn=DriverManager.getConnection(_URL,_UserName,_Password);
+            DBstmt=DBconn.createStatement();
+            DBrs=DBstmt.getResultSet();
             return true;
         }catch (Exception Error)
         {
+            return false;
+        }
+    }
+
+    public final boolean ReConnectDB(String _URL, String _UserName, String _Password)
+    {
+        try {
+            DBrs=null;
+            DBstmt=null;
+            DBconn=null;
+
+            DBconn=DriverManager.getConnection(_URL,_UserName,_Password);
+            DBstmt=DBconn.createStatement();
+            DBrs=DBstmt.getResultSet();
+
+            return true;
+        }catch (Exception Error)
+        {
+            Error.printStackTrace();
             return false;
         }
     }
