@@ -199,7 +199,7 @@ public class SystemWindow extends JFrame {
                     Integer.parseInt(ID);
                     //尝试转换
 
-                    ResultSet _RS =DB.DBstmt.executeQuery("select if from worktable");
+                    ResultSet _RS =DB.DBstmt.executeQuery("select id from worktable");
                     while(_RS.next())
                     {
                         if(Objects.equals(_RS.getString("id"), ID))
@@ -210,6 +210,7 @@ public class SystemWindow extends JFrame {
                     }
                 }catch (Exception Err)
                 {
+                    Err.printStackTrace();
                     text.setText("ID输入格式错误");
                 }
                 String _SQL = "insert into worktable value\n" +
