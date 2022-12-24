@@ -28,10 +28,9 @@ public class LoginWindow extends JFrame
 
 	private JTextField username_Textline, password_Textline, port_Textline,address_Textline;
 
-	private Icon img_LoginButton = new ImageIcon("./SrcImg/img_login_button.png");
-	private ImageIcon img_Login_Background = new ImageIcon("./SrcImg/img_login_panel.png");
-
-	private ImageIcon img_Login_Photo = new ImageIcon("./SrcImg/img_login_photo.png");
+	private Icon img_LoginButton = new ImageIcon(this.getClass().getResource("/SrcImg/img_login_button.png"));
+	private ImageIcon img_Login_Background = new ImageIcon(this.getClass().getResource("/SrcImg/img_login_panel.png"));
+	private ImageIcon img_Login_Photo = new ImageIcon(this.getClass().getResource("/SrcImg/img_login_photo.png"));
 	private JLabel label_Login_Background = new JLabel(img_Login_Background);
 	private JLabel label_Login_Photo = new JLabel(img_Login_Photo);
 

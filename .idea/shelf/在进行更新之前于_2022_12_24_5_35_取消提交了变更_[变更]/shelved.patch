@@ -1,0 +1,173 @@
+Index: .idea/shelf/_2022_12_6_19_53____.xml
+===================================================================
+diff --git a/.idea/shelf/_2022_12_6_19_53____.xml b/.idea/shelf/_2022_12_6_19_53____.xml
+deleted file mode 100644
+--- a/.idea/shelf/_2022_12_6_19_53____.xml	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
++++ /dev/null	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
+@@ -1,4 +0,0 @@
+-<changelist name="在进行更新之前于_2022_12_6_19_53_取消提交了变更_[变更]" date="1670327637178" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_12_6_19_53_取消提交了变更_[变更]/shelved.patch" />
+-  <option name="DESCRIPTION" value="在进行更新之前于 2022/12/6 19:53 取消提交了变更 [变更]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/在进行更新之前于_2022_12_10_12_42_取消提交了变更_[变更]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/在进行更新之前于_2022_12_10_12_42_取消提交了变更_[变更]/shelved.patch b/.idea/shelf/在进行更新之前于_2022_12_10_12_42_取消提交了变更_[变更]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/在进行更新之前于_2022_12_10_12_42_取消提交了变更_[变更]/shelved.patch	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
++++ /dev/null	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
+@@ -1,72 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f1b8366d-7ab7-456e-89b2-0f816b4c3c87\" name=\"变更\" comment=\"login\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/LoginWindow/LoginWindow.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/LoginWindow/LoginWindow.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IUbvbwoYO0hVU9UxmO2JTeP3Y3\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"jdk.selected.JAVA_MODULE\": \"17\",\r\n    \"last_opened_file_path\": \"C:/ProgramProjectData/Java/EmployeeInfomationManageSystem/Lib/mysql-connector-j-8.0.31.jar\",\r\n    \"project.structure.last.edited\": \"模块\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"preferences.sourceCode.Java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"未命名\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"EmployeeInfomationManageSystem\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"f1b8366d-7ab7-456e-89b2-0f816b4c3c87\" name=\"变更\" comment=\"\" />\r\n      <created>1670239343950</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1670239343950</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"tes\">\r\n      <created>1670239410885</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670239410886</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test\">\r\n      <created>1670240235375</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670240235375</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"test\">\r\n      <created>1670261945127</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670261945127</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"test\">\r\n      <created>1670313808594</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670313808594</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"test\">\r\n      <created>1670314783091</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670314783091</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"login\">\r\n      <created>1670416831010</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670416831010</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"login\">\r\n      <created>1670416911455</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670416911455</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"tes\" />\r\n    <MESSAGE value=\"test\" />\r\n    <MESSAGE value=\"login\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"login\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision cb42acda71a62f57584126a95d9c3f069ae20faf)
+-+++ b/.idea/workspace.xml	(date 1670589696375)
+-@@ -4,10 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="f1b8366d-7ab7-456e-89b2-0f816b4c3c87" name="变更" comment="login">
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/LoginWindow/LoginWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginWindow/LoginWindow.java" afterDir="false" />
+--    </list>
+-+    <list default="true" id="f1b8366d-7ab7-456e-89b2-0f816b4c3c87" name="变更" comment="login" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -32,20 +29,20 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+--    "RunOnceActivity.OpenProjectViewOnStart": "true",
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+--    "jdk.selected.JAVA_MODULE": "17",
+--    "last_opened_file_path": "C:/ProgramProjectData/Java/EmployeeInfomationManageSystem/Lib/mysql-connector-j-8.0.31.jar",
+--    "project.structure.last.edited": "模块",
+--    "project.structure.proportion": "0.15",
+--    "project.structure.side.proportion": "0.2",
+--    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+-+    &quot;last_opened_file_path&quot;: &quot;C:/ProgramProjectData/Java/EmployeeInfomationManageSystem/Lib/mysql-connector-j-8.0.31.jar&quot;,
+-+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+-+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+-   }
+--}]]></component>
+-+}</component>
+-   <component name="RunManager">
+-     <configuration name="未命名" type="Application" factoryName="Application" nameIsGenerated="true">
+-       <option name="MAIN_CLASS_NAME" value="Main" />
+-@@ -113,7 +110,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1670416911455</updated>
+-     </task>
+--    <option name="localTasksCounter" value="8" />
+-+    <task id="LOCAL-00008" summary="login">
+-+      <created>1670575011042</created>
+-+      <option name="number" value="00008" />
+-+      <option name="presentableId" value="LOCAL-00008" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1670575011042</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="9" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+Index: .idea/shelf/在进行更新之前于_2022_12_6_19_53_取消提交了变更_[变更]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/在进行更新之前于_2022_12_6_19_53_取消提交了变更_[变更]/shelved.patch b/.idea/shelf/在进行更新之前于_2022_12_6_19_53_取消提交了变更_[变更]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/在进行更新之前于_2022_12_6_19_53_取消提交了变更_[变更]/shelved.patch	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
++++ /dev/null	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
+@@ -1,26 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f1b8366d-7ab7-456e-89b2-0f816b4c3c87\" name=\"变更\" comment=\"test\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IUbvbwoYO0hVU9UxmO2JTeP3Y3\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"jdk.selected.JAVA_MODULE\": \"17\",\r\n    \"last_opened_file_path\": \"C:/ProgramProjectData/Java/EmployeeInfomationManageSystem/Lib/mysql-connector-j-8.0.31.jar\",\r\n    \"project.structure.last.edited\": \"模块\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"f1b8366d-7ab7-456e-89b2-0f816b4c3c87\" name=\"变更\" comment=\"\" />\r\n      <created>1670239343950</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1670239343950</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"tes\">\r\n      <created>1670239410885</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670239410886</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test\">\r\n      <created>1670240235375</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670240235375</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"test\">\r\n      <created>1670261945127</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670261945127</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"test\">\r\n      <created>1670313808594</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670313808594</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"tes\" />\r\n    <MESSAGE value=\"test\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"test\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision f1d82ec0aa85c1fb119c86326a2ff0919f5fa5fc)
+-+++ b/.idea/workspace.xml	(date 1670327600879)
+-@@ -79,7 +79,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1670313808594</updated>
+-     </task>
+--    <option name="localTasksCounter" value="5" />
+-+    <task id="LOCAL-00005" summary="test">
+-+      <created>1670314783091</created>
+-+      <option name="number" value="00005" />
+-+      <option name="presentableId" value="LOCAL-00005" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1670314783091</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="6" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+Index: .idea/shelf/_2022_12_10_12_42____.xml
+===================================================================
+diff --git a/.idea/shelf/_2022_12_10_12_42____.xml b/.idea/shelf/_2022_12_10_12_42____.xml
+deleted file mode 100644
+--- a/.idea/shelf/_2022_12_10_12_42____.xml	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
++++ /dev/null	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
+@@ -1,4 +0,0 @@
+-<changelist name="在进行更新之前于_2022_12_10_12_42_取消提交了变更_[变更]" date="1670647365344" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_12_10_12_42_取消提交了变更_[变更]/shelved.patch" />
+-  <option name="DESCRIPTION" value="在进行更新之前于 2022/12/10 12:42 取消提交了变更 [变更]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f1b8366d-7ab7-456e-89b2-0f816b4c3c87\" name=\"变更\" comment=\"login\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/LoginWindow/LoginWindow.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/LoginWindow/LoginWindow.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IUbvbwoYO0hVU9UxmO2JTeP3Y3\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"jdk.selected.JAVA_MODULE\": \"17\",\r\n    \"last_opened_file_path\": \"C:/Program Files/Java/jdk-17.0.5/lib/jrt-fs.jar\",\r\n    \"project.structure.last.edited\": \"库\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"File.Encoding\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"未命名\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"EmployeeInfomationManageSystem\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"f1b8366d-7ab7-456e-89b2-0f816b4c3c87\" name=\"变更\" comment=\"\" />\r\n      <created>1670239343950</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1670239343950</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"tes\">\r\n      <created>1670239410885</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670239410886</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test\">\r\n      <created>1670240235375</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670240235375</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"test\">\r\n      <created>1670261945127</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670261945127</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"test\">\r\n      <created>1670313808594</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670313808594</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"test\">\r\n      <created>1670314783091</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670314783091</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"login\">\r\n      <created>1670416831010</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670416831010</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"login\">\r\n      <created>1670416911455</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670416911455</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"login\">\r\n      <created>1670726118263</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670726118263</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"login\">\r\n      <created>1670862103761</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1670862103761</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"tes\" />\r\n    <MESSAGE value=\"test\" />\r\n    <MESSAGE value=\"login\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"login\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 78afc797d34b899f657aa3c3505f406e7daa31f3)
++++ b/.idea/workspace.xml	(date 1671004717650)
+@@ -5,7 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="f1b8366d-7ab7-456e-89b2-0f816b4c3c87" name="变更" comment="login">
+-      <change beforePath="$PROJECT_DIR$/src/LoginWindow/LoginWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginWindow/LoginWindow.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_12_6_19_53____.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_12_6_19_53_取消提交了变更_[变更]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -126,7 +128,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670862103761</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="login">
++      <created>1670862667697</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1670862667697</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">

@@ -5,7 +5,7 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/SrcImg" />
+      <root url="file://$PROJECT_DIR$/src/SrcImg" />
     </SOURCES>
   </library>
 </component>
