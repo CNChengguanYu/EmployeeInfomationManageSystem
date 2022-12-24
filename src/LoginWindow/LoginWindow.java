@@ -153,7 +153,7 @@ public class LoginWindow extends JFrame
 		panel.add(address_Textline);
 
 		//创建密码输入栏
-		password_Textline = new JTextField("PASSWORD");
+		password_Textline = new JTextField("password");
 		password_Textline.setBounds(265, 260, 220, 30);
 		panel.add(password_Textline);
 
@@ -290,6 +290,7 @@ public class LoginWindow extends JFrame
 			}
 			catch (Exception Error)
 			{
+				login_Text_Label.setText("链接到数据库失败");
 				System.out.println("粗事辣!");
 				Error.printStackTrace();
 			}

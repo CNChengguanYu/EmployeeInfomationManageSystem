@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1b8366d-7ab7-456e-89b2-0f816b4c3c87" name="变更" comment="test">
+    <list default="true" id="f1b8366d-7ab7-456e-89b2-0f816b4c3c87" name="变更" comment="login">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EmployeeInfomationManageSystem_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginWindow/LoginWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginWindow/LoginWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemWindow/SystemWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemWindow/SystemWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Program Files/Java/jdk-17.0.5/lib/jrt-fs.jar",
+    "last_opened_file_path": "C:/ProgramProjectData/Java/EmployeeInfomationManageSystem/SrcImg",
     "project.structure.last.edited": "库",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
