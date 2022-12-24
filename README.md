@@ -1,4 +1,7 @@
 > 本项目已经开源至GitHub
+>
+> https://github.com/CNChengguanYu/EmployeeInfomationManageSystem
+>
 > >构建于
 > >JDK-17 
 > >
